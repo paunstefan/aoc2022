@@ -13,7 +13,7 @@ struct Args {
     test: bool,
 }
 
-aoc_days!(aoc1);
+aoc_days!(aoc1, aoc2);
 
 fn main() {
     let args = Args::parse();
